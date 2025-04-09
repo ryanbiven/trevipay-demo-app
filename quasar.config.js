@@ -47,7 +47,7 @@ export default defineConfig((/* ctx */) => {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: '/trevipay-demo-app/',
+      publicPath: '/trevipay-demo-app/spa/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
