@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center">
     <div class="q-pa-md" style="max-width: 600px; width: 100%">
-      <div class="text-h5 q-mb-md">Cat Fact Generator</div>
+      <div class="text-h5 q-mb-md">Cat Fact Retriver</div>
 
       <q-btn label="Get Cat Fact" @click="fetchCatFact" color="primary" />
 
