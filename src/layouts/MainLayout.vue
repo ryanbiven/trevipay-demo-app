@@ -3,6 +3,7 @@
     <q-page-container>
       <q-btn label="Go to Index Page" to="/" color="secondary" />
       <q-btn label="Go to Counter Page" to="/counter" color="secondary" />
+      <q-btn label="Go to To Do Page" to="/todo" color="secondary" />
 
       <router-view />
     </q-page-container>

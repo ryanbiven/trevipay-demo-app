@@ -9,7 +9,11 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('pages/NumberCounter.vue') }],
   },
-
+  {
+    path: '/todo',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/ToDo.vue') }],
+  },
   // Always leave this as last one,
   // but you can also remove it
   {
